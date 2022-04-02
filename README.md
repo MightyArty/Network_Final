@@ -13,3 +13,8 @@ This project is about primitive chat application over TCP with file transfer ove
 To solve this, we used smart congestion control. In the below image you can see how we did it exactly.
 
 <img width="888" alt="Screen Shot 2022-04-02 at 10 38 48" src="https://user-images.githubusercontent.com/77808208/161372472-6d9c376b-e821-4043-af97-ed0338292f01.png">
+
+## How to run the application
+Firstly, you need to run the </b>`server.py` side and create a new connection with the client on particular IP and port numbers.
+
+Then you can get the list of the online clients that are already connected, send both public and private messages and download any file that are located on the server to your device.
